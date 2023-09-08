@@ -24,25 +24,13 @@ $(document).ready(function () {
       $(".main_04_bestOrder .mainOrderLine").height(thirdW); //반띵한 높이주고 온라인주문
       $(".main_04_bestOrder_m .mainOrderLine").height(thirdW); //반띵한 높이주고 온라인주문
     }
-    /* $('.main_02_facebook2 .facebook_cover').height(thirdW);//반띵한 높이주고 페이스북 */
-
+   
     $(".mainNoticeLine")
       .height(fourthW)
       .css("line-height", fourthW + "px"); //반띵한 높이주고 공지
     $(".mainEventLine")
       .height(fourthW)
-      .css("line-height", fourthW + "px"); //반띵한 높이주고 이벤트
-
-    /*if(wW < 1008){
-				$('.main_08_gallery .mainSns').height(thirdW);//반띵한 높이주고 sns
-			}else{
-				$('.main_08_gallery .mainSns').height(secondW);//반띵한 높이주고 sns
-			}
-			if(wW < 1008){
-				$('.main_08_gallery .mainGallery').height(thirdW);//반띵한 높이주고 사등분 갤러리
-			}else{
-				$('.main_08_gallery .mainGallery').height(secondW);//반띵한 높이주고 사등분 갤러리
-			}; */
+      .css("line-height", fourthW + "px"); //반띵한 높이주고 이벤트   
 
     if (wW < 1008) {
       $(".aboutNenechicken").text("네네치킨"); //텍스트변경
@@ -69,70 +57,6 @@ $(document).ready(function () {
     } else {
     }
   }
-
-  /*  //서브메뉴nav
-	function menuNav (){
-		var wW = $(window).width();
-		if(wW > 735){
-			    var swiper6 = new Swiper('.swiper-container6', {
-					slidesPerView: 7.6,
-					paginationClickable: true,
-					spaceBetween: 0
-				});
-		}else{
-				var swiper6 = new Swiper('.swiper-container6', {
-					slidesPerView: 4.3,
-					paginationClickable: true,
-					spaceBetween: 0
-				});
-		};
-	};
-	 menuNav();
-
-	     //서브창업메뉴nav
-	function businessNav (){
-		var wW = $(window).width();
-		if(wW > 735){
-			    var swiper7 = new Swiper('.swiper-container7', {
-					slidesPerView: 6,
-					paginationClickable: true,
-					spaceBetween: 0
-				});
-		}else{
-				var swiper7 = new Swiper('.swiper-container7', {
-					slidesPerView: 3.5,
-					paginationClickable: true,
-					spaceBetween: 0
-				});
-		};
-	};
-	 businessNav(); */
-
-  /* 
-	 function aboutNav (){
-		var wW = $(window).width();
-		if(wW > 735){
-			    var swiper8 = new Swiper('.swiper-container8', {
-					slidesPerView: 7,
-					paginationClickable: true,
-					spaceBetween: 0
-				});
-		}else{
-				var swiper8 = new Swiper('.swiper-container8', {
-					slidesPerView: 3.5,
-					paginationClickable: true,
-					spaceBetween: 0
-				});
-		};
-	};
-	 aboutNav(); */
-
-  /* function eventHeight(){
-		var eventW = $('.eventImage').width();
-		var eventW = eventW*0.3;
-		$('.eventImage').height(eventW);
-	};
-	eventHeight() */
 
   function videoHeight() {
     var videoW = $(".videoImage").width();
